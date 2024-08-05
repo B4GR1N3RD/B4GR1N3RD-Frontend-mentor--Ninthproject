@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.Main {
+    font-family: "Kumbh Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    height: 641px;
+    background: url(../imgs/bg-pattern-bottom.svg) bottom -600px right -150px no-repeat, url(../imgs/bg-pattern-top.svg) top -500px left -200px no-repeat;
+    background-color:  hsl(185, 75%, 39%);
+}
+
+.Card{
+    position: absolute;
+    width: 325px;
+    height: 375px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.Pattern{
+    width: 325px;
+    height: 125px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: url(../imgs/bg-pattern-card.svg) ;
+}
+
+.Avatar{
+    display: flex;
+    justify-content: center;
+}
+
+.Avatar img{
+    position: relative;
+    bottom: 50px;
+    border: 5px solid white;
+    border-radius: 100%;
+}
+
+.PersonalInfo{
+    margin-top: -30px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+#Name{    
+    font-size: 20px;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+#Age{
+    margin-left: 07px;
+    font-size: 20px;
+    color: hsl(0, 0%, 59%);
+    font-weight: 500;
+}
+
+.Address{
+    margin-top: 05px;
+    text-align: center;
+    font-size: 17px;
+    color: hsl(0, 0%, 59%);
+    font-weight: 500;
+}
+
+.Stats{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 25px;
+    border-top: 0.05px solid hsl(0, 0%, 85%);
+}
+
+.Info{
+    margin-top: 25px;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.Description{
+    color: hsl(0, 0%, 59%);
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 05px;
+}
+
+footer{
+    text-align: center;
+    line-height: 25px;
+    display: inline-block;
+    position: relative;
+    top: 275px;
+    font-weight: 700;
+}
+
+footer a{
+    color: hsl(185, 75%, 25%);
+}
+
+.Attribution{
+    color:hsl(229, 23%, 23%);
+}
